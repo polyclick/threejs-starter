@@ -15,3 +15,12 @@ nvm use
 yarn
 yarn start
 ```
+
+## Keeping things up to date:
+
+```
+yarn outdated
+```
+
+Upgrade packages to latest.
+When run or build fails let me know.
