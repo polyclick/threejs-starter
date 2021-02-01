@@ -1,0 +1,37 @@
+{
+  "name": "threejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --config webpack.config.babel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "three.js",
+    "webpack",
+    "babel",
+    "yarn",
+    "dat.gui",
+    "stats.js",
+    "es6"
+  ],
+  "author": "polyclick",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.7.1",
+    "yarn": "^1.22.10"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "stats.js": "^0.17.0",
+    "three": "^0.125.2"
+  }
+}
